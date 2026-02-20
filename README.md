@@ -86,7 +86,7 @@ This project simulates a high-level cybersecurity architectural engagement. As t
 ### G. Regulatory Compliance
 **Requirement:** *Explain how the proposed merged network topology diagram addresses two regulatory compliance requirements that are relevant to the newly merged company...*
 
-* **Payment Card Industry Data Security Standard (PCI-DSS):** *
+* **Payment Card Industry Data Security Standard (PCI-DSS):**
     * *Relevance:* This is relevant because Company B accepts credit cards as a payment option.
     * *How it meets it:* The proposed topology meets this requirement by placing the Cardholder Data Environment (CDE) in an isolated, micro-segmented VLAN separated from the rest of the general user network via internal firewalls.
 * **Gramm-Leach-Bliley Act (GLBA):**
