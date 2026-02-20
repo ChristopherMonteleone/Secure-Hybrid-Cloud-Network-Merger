@@ -86,7 +86,8 @@ This project simulates a high-level cybersecurity architectural engagement. As t
 ### G. Regulatory Compliance
 **Requirement:** *Explain how the proposed merged network topology diagram addresses two regulatory compliance requirements that are relevant to the newly merged company...*
 
-* **Payment Card Industry Data Security Standard (PCI-DSS):** * *Relevance:* This is relevant because Company B accepts credit cards as a payment option.
+* **Payment Card Industry Data Security Standard (PCI-DSS):** *
+    * *Relevance:* This is relevant because Company B accepts credit cards as a payment option.
     * *How it meets it:* The proposed topology meets this requirement by placing the Cardholder Data Environment (CDE) in an isolated, micro-segmented VLAN separated from the rest of the general user network via internal firewalls.
 * **Gramm-Leach-Bliley Act (GLBA):**
     * *Relevance:* This is relevant because Company A operates in the financial industry offering checking accounts and investment products.
@@ -95,10 +96,12 @@ This project simulates a high-level cybersecurity architectural engagement. As t
 ### H. Emerging Threats
 **Requirement:** *Describe two emerging threats that are applicable to the merged organization...*
 
-* **Emerging Threat 1: Ransomware via VPN Compromise.** * *Risk:* A compromised remote worker endpoint could allow ransomware to traverse the VPN tunnel directly into the newly merged internal network. 
+* **Emerging Threat 1: Ransomware via VPN Compromise.**
+    * *Risk:* A compromised remote worker endpoint could allow ransomware to traverse the VPN tunnel directly into the newly merged internal network. 
     * *Performance Impact:* Mitigating this requires deep-packet inspection and MFA overhead, which can introduce latency during login and data transfer for remote users.
     * *Management:* Manage this risk by enforcing strict Zero Trust access policies and utilizing Managed Security Services for 24/7 endpoint monitoring.
-* **Emerging Threat 2: Cloud Data Misconfiguration.** * *Risk:* As the company integrates cloud services for scalability, a misconfigured storage bucket or security group could expose sensitive financial or medical data to the public internet.
+* **Emerging Threat 2: Cloud Data Misconfiguration.**
+    * *Risk:* As the company integrates cloud services for scalability, a misconfigured storage bucket or security group could expose sensitive financial or medical data to the public internet.
     * *Performance Impact:* Routing all cloud traffic through inspection gateways to verify configurations can create bandwidth bottlenecks.
     * *Management:* Manage this risk by implementing automated Cloud Security Posture Management (CSPM) tools and enforcing infrastructure-as-code deployment to prevent manual errors.
 
